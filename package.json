@@ -7,9 +7,11 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
+  "repository": "https://github.com/felipecassiors/haversine-short-distance",
   "author": "Felipe Santos <felipe.santos@gec.inatel.br>",
   "license": "ISC",
   "dependencies": {
-    "haversine": "^1.1.1"
+    "csvtojson": "^2.0.8",
+    "haversine": "^1.1.1",
   }
 }
