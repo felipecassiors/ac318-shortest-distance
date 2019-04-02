@@ -1,0 +1,15 @@
+{
+  "name": "haversine-short-distance",
+  "version": "1.0.0",
+  "description": "Calculates the short distance between two points using the haversine formula",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Felipe Santos <felipe.santos@gec.inatel.br>",
+  "license": "ISC",
+  "dependencies": {
+    "haversine": "^1.1.1"
+  }
+}
