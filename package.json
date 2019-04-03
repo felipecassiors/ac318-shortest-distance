@@ -1,7 +1,7 @@
 {
   "name": "haversine-short-distance",
   "version": "1.0.0",
-  "description": "Calculates the short distance between two points using the haversine formula",
+  "description": "Calculates the shortest distance between two cities using the Floyd Marshall algorithm",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,7 +11,9 @@
   "author": "Felipe Santos <felipe.santos@gec.inatel.br>",
   "license": "ISC",
   "dependencies": {
+    "console.table": "^0.10.0",
     "csvtojson": "^2.0.8",
-    "haversine": "^1.1.1",
+    "floyd-warshall": "^1.0.0",
+    "haversine": "^1.1.1"
   }
 }
