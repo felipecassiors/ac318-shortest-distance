@@ -15,6 +15,9 @@ csv({delimiter: ";"}).fromFile("./coordenadas.csv").then((input) => {
         names.push(i.Capital);
     }
 
+    console.log("Cities read by the file:");
+    console.table(cities);
+
     let distances = [];
     for (let i = 0; i < cities.length; i++) {
         distances[i] = [];
