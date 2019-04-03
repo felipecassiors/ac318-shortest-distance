@@ -20,3 +20,9 @@ Developed with [JetBrains WebStorm](https://www.jetbrains.com/webstorm/). Using 
 
 ## Usage
 You just have to build and run, the project will look for a file ```coordenadas.csv``` in the same folder for importing the coordinates. Then it will calculate the matrix of distances using the haversine formula, and lastly, it will determine the shortest distances between all cities. It will print on the console all the three steps results.
+
+## Dependencies
+- [csvtojson](https://www.npmjs.com/package/csvtojson): Used for reading the CSV file.
+- [haversine](https://www.npmjs.com/package/haversine): Used for calculating the distance between two coordinates.
+- [floyd-warshall](https://www.npmjs.com/package/floyd-warshall): Used for determining the shortest distances between all cities.
+- [console.table](https://www.npmjs.com/package/console.table): Used for a better-printed matrix on the console
