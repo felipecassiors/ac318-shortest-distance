@@ -1,4 +1,4 @@
-# ac318-shortest-distance
+# Shortest Distance algorithm for AC318 class
 ### Calculates the shortest distance between cities using the Floyd Marshall algorithm
 
 Developed with [JetBrains WebStorm](https://www.jetbrains.com/webstorm/). Using it is optional, but will produce better-printed results on the console. 
